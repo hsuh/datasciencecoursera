@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[My Super Blog]]></title>
-  <link href="http://hsuh.github.io/atom.xml" rel="self"/>
-  <link href="http://hsuh.github.io/"/>
-  <updated>2014-05-30T02:10:13+01:00</updated>
-  <id>http://hsuh.github.io/</id>
+  <link href="http://hsuh.github.io/datasciencecoursera/atom.xml" rel="self"/>
+  <link href="http://hsuh.github.io/datasciencecoursera/"/>
+  <updated>2014-05-30T02:23:53+01:00</updated>
+  <id>http://hsuh.github.io/datasciencecoursera/</id>
   <author>
     <name><![CDATA[Hsu Hlaing]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Zombie Ninjas Attack: A Survivor's Retrospective]]></title>
-    <link href="http://hsuh.github.io/blog/2014/05/30/zombie-ninjas-attack-a-survivors-retrospective/"/>
+    <link href="http://hsuh.github.io/datasciencecoursera/blog/2014/05/30/zombie-ninjas-attack-a-survivors-retrospective/"/>
     <updated>2014-05-30T01:14:00+01:00</updated>
-    <id>http://hsuh.github.io/blog/2014/05/30/zombie-ninjas-attack-a-survivors-retrospective</id>
+    <id>http://hsuh.github.io/datasciencecoursera/blog/2014/05/30/zombie-ninjas-attack-a-survivors-retrospective</id>
     <content type="html"><![CDATA[<p>=== Hai I&rsquo;m zombie</p>
 ]]></content>
   </entry>
