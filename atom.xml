@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://hsuh.github.io//github/atom.xml" rel="self"/>
-  <link href="http://hsuh.github.io//github/"/>
-  <updated>2014-05-30T01:14:52+01:00</updated>
-  <id>http://hsuh.github.io//github/</id>
+  <title><![CDATA[My Super Blog]]></title>
+  <link href="http://hsuh.github.io/atom.xml" rel="self"/>
+  <link href="http://hsuh.github.io/"/>
+  <updated>2014-05-30T02:10:13+01:00</updated>
+  <id>http://hsuh.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Hsu Hlaing]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,10 +15,10 @@
   
   <entry>
     <title type="html"><![CDATA[Zombie Ninjas Attack: A Survivor's Retrospective]]></title>
-    <link href="http://hsuh.github.io//github/blog/2014/05/30/zombie-ninjas-attack-a-survivors-retrospective/"/>
+    <link href="http://hsuh.github.io/blog/2014/05/30/zombie-ninjas-attack-a-survivors-retrospective/"/>
     <updated>2014-05-30T01:14:00+01:00</updated>
-    <id>http://hsuh.github.io//github/blog/2014/05/30/zombie-ninjas-attack-a-survivors-retrospective</id>
-    <content type="html"><![CDATA[
+    <id>http://hsuh.github.io/blog/2014/05/30/zombie-ninjas-attack-a-survivors-retrospective</id>
+    <content type="html"><![CDATA[<p>=== Hai I&rsquo;m zombie</p>
 ]]></content>
   </entry>
   
