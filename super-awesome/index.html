@@ -5,13 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Super_awesome - My Super Blog</title>
+  <title>Super-awesome - My Super Blog</title>
   <meta name="author" content="Hsu Hlaing">
-
   
-  <meta name="description" content=" Super_awesome May 30th, 2014 === Hai May 30th, 2014 Tweet Recent Posts Zombie Ninjas Attack: A Survivor's Retrospective ">
+  <meta name="description" content="
+">
   
-
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
@@ -21,11 +20,17 @@
   <link rel="canonical" href="http://hsuh.github.io/datasciencecoursera/super-awesome">
   <link href="/datasciencecoursera/favicon.png" rel="icon">
   <link href="/datasciencecoursera/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/github/atom.xml" rel="alternate" title="My Super Blog" type="application/atom+xml">
-  <script src="/datasciencecoursera/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/datasciencecoursera/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/datasciencecoursera/stylesheets/syntax-default.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/datasciencecoursera/javascripts/deck.js/core/deck.core.css">
+  <link rel="stylesheet" href="/datasciencecoursera/javascripts/deck.js/extensions/goto/deck.goto.css">
+  <link rel="stylesheet" href="/datasciencecoursera/javascripts/deck.js/extensions/menu/deck.menu.css">
+  <link rel="stylesheet" href="/datasciencecoursera/javascripts/deck.js/extensions/navigation/deck.navigation.css">
+  <link rel="stylesheet" href="/datasciencecoursera/javascripts/deck.js/extensions/status/deck.status.css">
+  <link rel="stylesheet" href="/datasciencecoursera/javascripts/deck.js/extensions/hash/deck.hash.css">
+  <link rel="stylesheet" href="/datasciencecoursera/javascripts/deck.js/extensions/scale/deck.scale.css">
+  <link rel="stylesheet" href="/datasciencecoursera/javascripts/deck.js/themes/style/web-2.0.css">
+  <link rel="stylesheet" href="/datasciencecoursera/javascripts/deck.js/themes/transition/fade.css">
+  <script src="deck.js/modernizr.custom.js"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -34,142 +39,54 @@
 
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/datasciencecoursera/">My Super Blog</a></h1>
-  
-    <h2>Hai Nice To See You</h2>
-  
-</hgroup>
+<body class="deck-container">
 
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/github/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:hsuh.github.io/datasciencecoursera" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/datasciencecoursera/">Blog</a></li>
-  <li><a href="/datasciencecoursera/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article role="article">
-  
-  <header>
-    <h1 class="entry-title">Super_awesome</h1>
-    <p class="meta">
-
-
-
-
-
-
-
+  <section class="slide">
+    <h1>super-awesome</h1>
+  </section>
 
   
 
 
-<time datetime="2014-05-30T01:09:00+01:00" pubdate data-updated="true">May 30<span>th</span>, 2014</time></p>
-  </header>
-  
-  <p>=== Hai</p>
+  <!-- deck.navigation snippet -->
+  <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+  <a href="#" class="deck-next-link" title="Next">&#8594;</a>
 
-  
-    <footer>
-      <p class="meta">
-        
-        
+  <!-- deck.status snippet -->
+  <p class="deck-status">
+    <span class="deck-status-current"></span>
+    /
+    <span class="deck-status-total"></span>
+  </p>
 
+  <!-- deck.goto snippet -->
+  <form action="." method="get" class="goto-form">
+    <label for="goto-slide">Go to slide:</label>
+    <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+    <datalist id="goto-datalist"></datalist>
+    <input type="submit" value="Go">
+  </form>
 
+  <!-- deck.hash snippet -->
+  <a href="." title="Permalink to this slide" class="deck-permalink">#</a>
 
+  <script src="deck.js/jquery-1.7.min.js"></script>
 
+  <!-- Deck Core and extensions -->
+  <script src="deck.js/core/deck.core.js"></script>
+  <script src="deck.js/extensions/hash/deck.hash.js"></script>
+  <script src="deck.js/extensions/menu/deck.menu.js"></script>
+  <script src="deck.js/extensions/goto/deck.goto.js"></script>
+  <script src="deck.js/extensions/status/deck.status.js"></script>
+  <script src="deck.js/extensions/navigation/deck.navigation.js"></script>
+  <script src="deck.js/extensions/scale/deck.scale.js"></script>
 
-
-
-
-  
-
-
-<time datetime="2014-05-30T01:09:00+01:00" pubdate data-updated="true">May 30<span>th</span>, 2014</time>
-        
-      </p>
-      
-        <div class="sharing">
-  
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://hsuh.github.io/datasciencecoursera/super-awesome/index.html" data-via="" data-counturl="http://hsuh.github.io/datasciencecoursera/super-awesome/index.html" >Tweet</a>
-  
-  
-  
-</div>
-
-      
-    </footer>
-  
-</article>
-
-</div>
-
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/datasciencecoursera/blog/2014/05/30/zombie-ninjas-attack-a-survivors-retrospective/">Zombie Ninjas Attack: A Survivor's Retrospective</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
-  
-</aside>
-
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Hsu Hlaing -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
+  <!-- Initialize the deck -->
+  <script>
+    $(function() {
+      $.deck('.slide');
+    });
   </script>
-
-
-
-
 
 </body>
 </html>
