@@ -1,0 +1,30 @@
+div.feusd-logo {
+  float: left;
+}
+
+.feusd-logo img {
+  width: 200px;
+}
+
+div.cpd-screen {
+  width: 600px;
+  height: 300px;
+  display: inline-block;
+  margin-left: 290px;
+}
+
+.feusd-slide2-text{
+  float: left;
+}
+.feusd-user-network {
+  display: inline-block;
+}
+
+.left-text {
+  float: left;
+}
+.feusd-cluster0 {
+  display: inline-block;
+  width: 640px;
+  margin-left: 20px;
+}

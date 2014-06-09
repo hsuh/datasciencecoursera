@@ -5,10 +5,10 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Super-awesome - My Super Blog</title>
+  <title>Social Networks (Feusd) - My Super Blog</title>
   <meta name="author" content="Hsu Hlaing">
   
-  <meta name="description" content=" Markdown is also a possibility ## Slide Title * This is Markdown * It&#39;s simpler than HTML Oh hai again&#8230; ">
+  <meta name="description" content="SAAS for Membership Organisations Provides Social Networking Personal Recommendations Community Generated Content Members Activity and Network &hellip;">
   
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -19,6 +19,7 @@
   <link rel="canonical" href="http://hsuh.github.io/datasciencecoursera/super-awesome">
   <link href="/datasciencecoursera/favicon.png" rel="icon">
   <link href="/datasciencecoursera/stylesheets/syntax-default.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/datasciencecoursera/stylesheets/slide.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/datasciencecoursera/javascripts/deck.js/core/deck.core.css">
   <link rel="stylesheet" href="/datasciencecoursera/javascripts/deck.js/extensions/goto/deck.goto.css">
   <link rel="stylesheet" href="/datasciencecoursera/javascripts/deck.js/extensions/menu/deck.menu.css">
@@ -49,19 +50,129 @@
 <body class="deck-container">
 
   <section class="slide">
-    <h1>super-awesome</h1>
+    <h1>Social Networks (Feusd)</h1>
   </section>
 
   <section class='slide'>
-  <h2>Markdown is also a possibility</h2>
-  <div>
-  <pre><code class='moin'>## Slide Title
-  * This is Markdown
-  * It&#39;s simpler than HTML</code></pre>
+  <h2>SAAS for Membership Organisations</h2>
+  <div class='feusd-logo'>
+    <img src='images/feusd-medium.png' />
+    <div class='feusd-slide-text'>
+      <section class='slide'>
+        <h3>Provides</h3>
+        <ul>
+          <li class='slide'>Social Networking</li>
+          <li class='slide'>Personal Recommendations</li>
+          <li class='slide'>Community Generated Content</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+  <div class='cpd-screen'>
+    <img src='images/CPD_Home.png' />
+  </div>
 </section>
-</div>
 <section class='slide'>
-  <h2>Oh hai again&#8230;</h2>
+  <h2>Members Activity and Network</h2>
+  <div class='feusd-user'>
+    <div class='feusd-slide2-text'>
+      <section class='slide'>
+        <h3>Understand</h3>
+        <ul>
+          <li class='slide'>Network dynamics as a whole</li>
+          <li class='slide'>Members&#8217; personal network and their role</li>
+        </ul>
+        <h3>Provide</h3>
+        <ul>
+          <li class='slide'>Better member experience</li>
+          <li class='slide'>More targeted marketing</li>
+          <li class='slide'>Build communities</li>
+        </ul>
+      </section>
+    </div>
+    <div class='feusd-user-network'>
+      <img src='images/user-network.png' />
+    </div>
+  </div>
+</section>
+<section class='slide'>
+  <h2>Data And Visualisation</h2>
+  <div class='left-text'>
+    <section class='slide'>
+      <h3>CPD foundation - Data</h3>
+      <ul>
+        <li class='slide'>3160 users</li>
+        <li class='slide'>126 connections</li>
+        <li class='slide'>Sparse connections with islands of cliques</li>
+      </ul>
+    </section>
+  </div>
+  <div class='feusd-cluster0'>
+    <img src='images/feusd-cluster0.png' />
+  </div>
+</section>
+<section class='slide'>
+  <h2>Data And Visualisation</h2>
+  <div class='left-text'>
+    <section class='slide'>
+      <h3>Visualisation</h3>
+      <ul>
+        <li class='slide'>Provide an overview</li>
+        <li class='slide'>Account both hairball and sparse networks</li>
+        <li class='slide'>Ability to zoom in on details</li>
+      </ul>
+    </section>
+  </div>
+  <div class='feusd-cluster0'>
+    <img src='images/hairball.png' />
+  </div>
+</section>
+<section class='slide'>
+  <h2>Visualisation</h2>
+  <div class='left-text'>
+    <section class='slide'>
+      <h3>Provide an overview</h3>
+      <ul>
+        <li class='slide'>Members are grouped by activity</li>
+        <li class='slide'>k-means clustering</li>
+        <li class='slide'>Different layouts</li>
+      </ul>
+    </section>
+  </div>
+  <div class='feusd-cluster0'>
+    <img src='images/feusd-clusters.png' />
+  </div>
+</section>
+<section class='slide'>
+  <h2>Visualisation</h2>
+  <div class='left-text'>
+    <section class='slide'>
+      <h3>Inside Member Groups</h3>
+      <ul>
+        <li class='slide'>Force directed layout(d3.js)</li>
+        <li class='slide'>Using constraint-based optimisation(webcola)</li>
+        <li class='slide'>Reduce jitters and non-overlapping nodes</li>
+        <li class='slide'>Zoom/Pan and drag/drop nodes</li>
+        <li class='slide'>Node sizes according to member importance</li>
+      </ul>
+    </section>
+  </div>
+  <div class='feusd-cluster0'>
+    <img src='images/feusd-cluster0.png' />
+  </div>
+</section>
+<section class='slide'>
+  <h2>So what?</h2>
+  <ul>
+    <li>Overview of communities based on activities/interests; gives us a context to explore further inside the groups</li>
+    <li class='slide'>Further analysis to see how the groups are different</li>
+    <li class='slide'>Importance of nodes - influencers</li>
+    <li class='slide'>Popular content</li>
+    <li class='slide'>Other metrics - location, expertise</li>
+    <li class='slide'>Understand a person&#8217;s network and their role</li>
+    <li class='slide'>Hopefully help the organisation make better decisions and build communities</li>
+    <li class='slide'>Better social experience and content</li>
+  </ul>
 </section>
 
 
