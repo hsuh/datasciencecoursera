@@ -18,6 +18,8 @@ div.cpd-screen {
 }
 .feusd-user-network {
   display: inline-block;
+  width: 630px;
+  margin-left: 20px;
 }
 
 .left-text {
@@ -25,6 +27,6 @@ div.cpd-screen {
 }
 .feusd-cluster0 {
   display: inline-block;
-  width: 640px;
+  width: 630px;
   margin-left: 20px;
 }
